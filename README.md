@@ -65,13 +65,13 @@ where `mu` is the location parameter and `beta > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@v0.3.0-esm/index.mjs';
 ```
 
 #### pdf( x, mu, beta )
@@ -144,7 +144,7 @@ y = mypdf( 12.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-pdf@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
